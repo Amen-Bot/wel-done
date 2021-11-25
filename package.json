@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Amen-Bot/wel-done/issues"
   },
-  "homepage": "https://github.com/Amen-Bot/wel-done#readme"
+  "homepage": "https://github.com/Amen-Bot/wel-done#readme",
+  "devDependencies": {
+    "cypress": "^9.1.0"
+  }
 }
