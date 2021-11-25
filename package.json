@@ -1,0 +1,19 @@
+{
+  "name": "coretutorial",
+  "version": "1.0.0",
+  "description": "No need",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amen-Bot/wel-done.git"
+  },
+  "author": "Amen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Amen-Bot/wel-done/issues"
+  },
+  "homepage": "https://github.com/Amen-Bot/wel-done#readme"
+}
