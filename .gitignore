@@ -2,3 +2,7 @@
 dist/
 .DS_Store
 .vscode/
+
+
+# hide these files 
+node_modules/
