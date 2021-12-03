@@ -1,10 +1,13 @@
+import PageObject from '../../support/PageObjects/commonActions.js';
+const pages = new PageObject();
+
 context('Creating a demo class', () => {
     it('It should open the demo site', () =>{
         cy.visit('/');
     })
     it('It should close the banner', () =>{
         cy.fixture('element-mappers').then((em) =>{
-            cy.get(em.banner).click();  
+            pages.clickAction(em.banner);  
     })
     })
 
@@ -15,7 +18,7 @@ context('Creating a demo class', () => {
     })
     it('It should click on the Input Forms tab', () =>{
         cy.fixture('element-mappers').then((em) =>{
-            cy.get(em.inputFormTab).click();
+            pages.clickAction(em.inputFormTab);
     })
     })
     it('It should navigate and click on the JQuery select dropdown tab',() =>{
@@ -30,7 +33,8 @@ context('Creating a demo class', () => {
     })
     it('It should select on Python on the drop with category related options', () =>{
         cy.fixture('element-mappers').then((em) =>{
-            cy.get(em.languageDropdown).select(em.python);
+            pages.clickAction('[title="American Samoa"]');
+            pages.selectAValue(em.languageDropdown, em.python);
     })
     })
 
