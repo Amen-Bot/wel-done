@@ -4,5 +4,5 @@ dist/
 .vscode/
 
 
-# hide these files 
-node_modules
+# files from installation directory
+node_modules/

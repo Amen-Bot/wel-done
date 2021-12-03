@@ -1,0 +1,13 @@
+{
+"banner": "#at-cv-lightbox-close", 
+"pageBottom": "bottom",
+"inputFormTab": ":nth-child(3) > :nth-child(1) > [href='#']",
+"jquerrySelectDropdown": ":nth-child(3) > :nth-child(1) > ul > :nth-child(7)",
+"languageDropdown": "#files",
+"python": "Python",
+"url": "/"
+
+
+
+}
+
